@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/culture/culture",
+    "pages/delicacy/delicacy",
+    "pages/ext/ext",
+    "pages/lufeng/lufeng",
+    "pages/map/map",
+    "pages/play/play",
+    "pages/scenic_sports/scenic_sports",
+    "pages/strategy/strategy",
+    "pages/superMaket/superMaket"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "yo趣",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"gray",
+    "selectedColor":"#000",
+    "backgroundColor":"white",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "吃喝玩乐",
+      "iconPath":"pages/images/吃喝玩乐.png",
+      "selectedIconPath":"pages/images/吃喝玩乐sel.png"
+    },{
+      "pagePath": "pages/person/person",
+      "text": "地图导航",
+      "iconPath":"pages/images/地图.png",
+      "selectedIconPath":"pages/images/地图sel.png"
+    },
+    {
+      "pagePath":"pages/person/person",
+      "text":"个人中心",
+      "iconPath":"pages/images/个人中心.png",
+      "selectedIconPath":"pages/images/个人中心sel.png"
+    }]
+  }
+  
+}
